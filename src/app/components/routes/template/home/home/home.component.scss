@@ -1,0 +1,56 @@
+@import "../../../../shared/styles/bootstrap/functions";
+@import "../../../../shared/styles/bootstrap/variables";
+@import "../../../../shared/styles/bootstrap/mixins";
+@import '../../../../shared/styles/app/variables';
+
+.home-container {
+    margin: 0 auto;
+    max-width: map-get($container-max-widths, "lg");
+
+    .home-logo {
+        width: 240px;
+    }
+
+    .home-text {
+        text-align: center;
+        @include media-breakpoint-up(lg) {
+            text-align: center;
+        }
+    }
+    .home-text-big {
+        margin-top: 1.3125rem;
+        font-size: 2.9375rem;
+        margin-left: 30px;
+    }
+}
+
+
+.text-center img{
+    margin-left: 30px;
+
+}
+
+.btn{
+    width:60%;
+    background: #F13E4B;
+    border-color:#F13E4B ;
+    border-radius: 10px;
+    font-size: 120%;
+    margin-top: 20px;
+}
+h2{
+    margin: 40px;
+    font-size: 40px;
+    font-family: sans-serif;
+    
+}
+
+.foto{
+    width: 100%;
+    height: 80%;
+}
+.foto img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
